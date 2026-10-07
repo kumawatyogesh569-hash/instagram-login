@@ -1,0 +1,28 @@
+/* Instagram Logo Container & Image */
+.logo-container {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-logo {
+  width: 64px;       /* Control logo width */
+  height: 64px;      /* Keep aspect ratio square */
+  object-fit: contain;
+}
+
+/* Meta Logo Container & Image */
+.meta-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;          /* Space between Meta icon and text image */
+  margin-top: 8px;
+}
+
+.meta-logo img {
+  height: 16px;      /* Control height to match footer text size */
+  width: auto;       /* Automatically scale width proportionally */
+  object-fit: contain;
+}
