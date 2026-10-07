@@ -1,0 +1,30 @@
+/* Password Field Wrapper */
+.password-field-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Ensure padding on the right so text doesn't overlap the eye icon */
+.password-field-container .form-input {
+  padding-right: 48px;
+}
+
+/* Toggle Eye Button Styles */
+.toggle-password-btn {
+  position: absolute;
+  right: 14px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  outline: none;
+}
+
+.toggle-password-btn:hover .eye-icon {
+  stroke: #1c2b33;
+}
